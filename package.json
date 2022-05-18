@@ -1,7 +1,7 @@
 {
   "name": "goit-node-hw-01",
   "version": "1.0.0",
-  "description": "",
+  "description": "goit-node-hw-01-cli-app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "nanoid": "^3.3.4"
+  },
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
